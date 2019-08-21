@@ -1,0 +1,89 @@
+body {
+	background-color: #DEDEDE;
+}
+
+.centered {
+	background-color: #FFFFFF;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 320px;
+	width: 50%;
+	max-width: 500px;
+	
+	padding:16px 32px 16px 32px;
+}
+
+.text-content {
+	text-align: center;
+}
+
+.text-headline {
+	font-size: 32px;
+}
+
+.text-subtitle {
+	font-size: 24px;
+}
+
+.text-contact {
+	font-size: 16px;
+}
+
+.bubbles {
+	width: 100%;
+	text-align: center;
+}
+
+.bubbles ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+.bubbles ul li {
+    display: inline-block;
+}
+
+.bubbles li:not(:first-child) {
+    margin-left: 16px;
+}
+
+.bubbles .bubble img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+a:active {
+	color: black;
+}
+
