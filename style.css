@@ -14,8 +14,8 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	min-width: 320px;
-	width: 50%;
+	min-width: 64px;
+	width: 10%;
 	max-width: 500px;
 	
 	padding:16px 32px 16px 32px;
